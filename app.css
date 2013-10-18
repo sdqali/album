@@ -1,0 +1,8 @@
+.row.controls {
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+#album-canvas {
+    max-width: 100%;
+}
