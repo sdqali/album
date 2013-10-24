@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Random Album Art</title>
+    <title>Random Album Art - Credits</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -32,9 +32,9 @@
           <a class="brand" href="/">Random Album Art</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="/">Home</a></li>
+              <li><a href="/">Home</a></li>
               <li><a href="/about.html">About</a></li>
-              <li><a href="/credits.html">Credits</a></li>
+              <li class="active"><a href="/credits.html">Credits</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -42,20 +42,27 @@
     </div>
 
     <div class="container">
-      <section id="main">
+      <section id="credits">
 	<div class="row-fluid">
 	  <div class="span6">
 	    <div class="row">
-	      <canvas id="album-canvas" width="560" height="560"></canvas>
-	    </div>
-	    <div class="row controls">
-	      <a class="btn btn-primary" id="btn-reload" href="#">Show me another ↻</a>
+	      <h2>
+		Credits
+	      </h2>
+	      <ul>
+		<li>
+		  <em>natetyler</em> for <a href="https://github.com/natetyler/wikiquotes-api">wikiquotes-api</a>.
+		</li>
+		<li>
+		  The jQuery community for <em>jQuery.ajax</em>.
+		</li>
+	      </ul>
 	    </div>
 	  </div>
 	</div>
       </section>
 
-     <div class="row-fluid">
+      <div class="row-fluid">
 	<div id="footer">
           <p class="muted credit">Created by <a href="http://sdqali.in">Sadique Ali</a>.</p>
 	</div>
@@ -64,7 +71,7 @@
 
 
     <link href="app.css" rel="stylesheet">
-    <script src="app.js"> </script>
+    <script src="jquery-1.10.2.min.js"> </script>
     <script src="bootstrap/js/bootstrap.js"> </script>
   </body>
 </html>
